@@ -1,0 +1,33 @@
+body{
+    background-image: linear-gradient(to bottom, darkgreen, darkgreen, black);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    text-shadow: 2px 2px black;
+}
+
+.container{
+    margin:auto;
+    width:30%;
+    height:30%;
+    border:solid 2px white;
+    border-radius: 10%;
+}
+
+button{
+    border-radius: 10%;
+    background-color: black;
+    color:white;
+    transition:1s;
+    margin:auto;
+    position: relative;
+    right:5px;
+}
+
+button:hover{
+    background-image: linear-gradient(to top, darkgreen, darkgreen, black);
+}
